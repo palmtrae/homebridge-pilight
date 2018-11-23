@@ -1,6 +1,6 @@
 {
   "name": "homebridge-pilight",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "Homebridge plugin connecting to pilight",
   "repository": {
     "type": "git",
@@ -15,18 +15,18 @@
   ],
   "engines": {
     "homebridge": ">=0.2.5",
-    "node": ">=4.3"
+    "node": ">=6.14"
   },
   "author": "Jan Philipp <knallisworld@googlemail.com>",
   "license": "MIT",
   "dependencies": {
-    "eventemitter3": "^3.0.0",
-    "websocket": "^1.0.25"
+    "eventemitter3": "^3.1.0",
+    "websocket": "^1.0.28"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^1.0.0",
-    "eslint": "^4.13.1",
-    "jasmine": "^2.3.2"
+    "conventional-changelog-cli": "^2.0.0",
+    "eslint": "^5.9.0",
+    "jasmine": "^3.0.0"
   },
   "scripts": {
     "changelog": "conventional-changelog -i CHANGELOG.md -w -r 0",
