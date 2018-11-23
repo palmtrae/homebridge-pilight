@@ -76,7 +76,7 @@ module.exports = function (homebridge) {
       connection.emitter.on('connection::create', () => {
         // initial request all available values
         this.log('Requesting initial states...');
-        connection.send({action : 'request values'});
+        connection.sendNow({action : 'request values'});
       });
 
       connection.emitter.on('message::receive', (body) => {
